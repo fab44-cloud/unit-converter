@@ -1,3 +1,26 @@
 body {
     margin: 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.hero {
+    background: #6943FF;
+    padding: 30px;
+}
+
+.hero-heading {
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.main {
+    background: #1F2937;
+    padding: 10px;
+}
+
+.section {
+    background: #273549;
+    padding: 5px;
+    margin: 10px;
 }
