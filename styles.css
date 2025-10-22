@@ -19,18 +19,19 @@ body {
 
 .hero-heading {
     color: #FFFFFF;
-    font-size: 28px;
+    font-size: 2rem;
 }
 
 #input-el {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
     color: #FFFFFF;
     border-radius: 5px;
     background: #6943FF;
     border: 2px solid #B295FF;
     width: 100px;
-    height: 100px;
+    height: 75px;
     box-sizing: border-box;
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 #convert-btn:hover {
-    background: #f7f5f5;
+    background: #ece9e9;
 }
 
 .main {
@@ -57,4 +58,12 @@ body {
     background: #273549;
     padding: 5px;
     margin: 10px;
+}
+
+.section h3 {
+    color: #CCC1FF;
+}
+
+.section p {
+    color: #FFFFFF;
 }
