@@ -35,5 +35,5 @@ convertBtn.addEventListener("click", function() {
 
     performConversion(baseValue, lengthEl, "meters", "feet", meterToFeet)
     performConversion(baseValue, volumeEl, "liters", "gallons", literToGallon)
-    performConversion(baseValue, massEl, "mass", "pounds", kilogramToPound)
+    performConversion(baseValue, massEl, "kilos", "pounds", kilogramToPound)
 }) 
