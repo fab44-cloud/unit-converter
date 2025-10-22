@@ -2,11 +2,19 @@ body {
     margin: 0;
     font-family: "Inter", sans-serif;
     text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
     background: #6943FF;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .hero-heading {
@@ -14,9 +22,35 @@ body {
     font-size: 28px;
 }
 
+#input-el {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+#convert-btn {
+    background: #FFFFFF;
+    border-style: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#convert-btn:hover {
+    background: #f7f5f5;
+}
+
 .main {
     background: #1F2937;
     padding: 10px;
+    flex-grow: 1;
 }
 
 .section {
