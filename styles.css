@@ -44,6 +44,8 @@ body {
     border-radius: 5px;
     border-style: none;
     cursor: pointer;
+    color: #B295FF;
+    font-weight: bolder;
 }
 
 #convert-btn:hover {
